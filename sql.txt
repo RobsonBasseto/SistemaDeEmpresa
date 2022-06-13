@@ -1,0 +1,29 @@
+create table empresa(
+	idempresa serial primary key,
+	nomefantasia varchar(50) not null,
+	datafundacao timestamp not null,
+	razaosocial varchar(50) not null,
+	grupoempresarial  varchar(50) not null,
+	funcionarios integer not null,
+	faturamento decimal not null,
+	capitalsocial  varchar(50) not null,
+	inscricaoestadual  varchar(50) not null,
+	cnpj  varchar(18) not null,
+	endereco  varchar(50) not null,
+	descricao  varchar(50) not null,
+	email  varchar(50) not null,
+	telefone  varchar(14) not null
+);
+
+create table filial(
+	idfilial serial primary key,
+	descricao  varchar(50) not null,
+	sigla  varchar(10) not null,
+	cnpj  varchar(18) not null,
+	inscricaoestadual  varchar(50) not null,
+	endereco  varchar(50) not null,
+	email  varchar(50) not null,
+	telefone  varchar(14) not null,
+	idempresa integer,
+	constraint fk_empresa foreign key (idempresa) references empresa(idempresa) 
+)
