@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  color:white;
 }
 
 @media (min-width: 768px) {
@@ -13,6 +14,36 @@ html {
   min-height: 100%;
 }
 
+///
+.pull-right {
+    text-align: right;
+}
+
+.modal-content {
+    background: black;
+    color: white;
+    border-color: purple;
+}
+
 body {
-  margin-bottom: 60px;
+    background: #1C1C1C;
+    color: white;
+}
+
+.tabeladesc {
+    text-align: left;
+}
+
+#container-login {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15%;
+}
+
+#modalconteudo {
+    width: 100%;
+}
+
+.nav-tabs button :active {
+    background-color: yellow !important;
 }

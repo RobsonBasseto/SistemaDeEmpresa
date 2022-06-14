@@ -4,7 +4,7 @@
     {
 		public int idempresa { get; set; }
 		public string nomefantasia { get; set; }
-		public DateTime datafundacao { get; set; }
+		public DateOnly datafundacao { get; set; }
 		public string razaosocial { get; set; }
 		public string grupoempresarial { get; set; }
 		public int funcionarios { get; set; }

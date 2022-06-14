@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\rrobasseto\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj": {}
+    "C:\\Users\\aluno.AC-CAS\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj": {}
   },
   "projects": {
-    "D:\\Users\\rrobasseto\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj": {
+    "C:\\Users\\aluno.AC-CAS\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\rrobasseto\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj",
+        "projectUniqueName": "C:\\Users\\aluno.AC-CAS\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj",
         "projectName": "SistemaDeEmpresa",
-        "projectPath": "D:\\Users\\rrobasseto\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj",
-        "packagesPath": "D:\\Users\\rrobasseto\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\rrobasseto\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\obj\\",
+        "projectPath": "C:\\Users\\aluno.AC-CAS\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\SistemaDeEmpresa.csproj",
+        "packagesPath": "C:\\Users\\aluno.AC-CAS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno.AC-CAS\\Desktop\\Sistema De Empresa\\SistemaDeEmpresa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\rrobasseto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aluno.AC-CAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

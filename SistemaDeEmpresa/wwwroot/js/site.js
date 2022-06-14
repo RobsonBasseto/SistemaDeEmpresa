@@ -1,6 +1,5 @@
 ﻿var Empresas = null;
 var Empresa = null;
-
 var Filial = null;
 
 function NewEmpresa() { 			//Declaração das variáveis da empresa.
@@ -192,8 +191,6 @@ function validarFilial() {		//Faz a verificação se os campos da filial estão 
 	return true;
 }
 
-
-
 function salvarEmpresa() { 		//Função que salva os dados dos campos digitados num array.
 
 	if (!validarEmpresa()) //verifica os campos.
@@ -227,7 +224,7 @@ function salvarEmpresa() { 		//Função que salva os dados dos campos digitados 
 		Empresas.map(function (index, emp) {
 			if (emp.Codigo == Empresa.Codigo)
 
-				emp.NomeFantasia = Empresa.NomeFantasia;
+			emp.NomeFantasia = Empresa.NomeFantasia;
 			emp.DataFundacao = Empresa.DataFundacao;
 			emp.RazaoSocial = Empresa.RazaoSocial;
 			emp.GrupoEmpresarial = Empresa.GrupoEmpresarial;
@@ -251,6 +248,7 @@ function salvarEmpresa() { 		//Função que salva os dados dos campos digitados 
 
 	$("#modal-Empresa").modal("hide");
 	carregarEmpresas(); //atualiza a lista.
+	carregarFiliais();
 }
 
 function salvarFilial() {		//Função que salva os dados de filial dentro do array filial da empresa.
@@ -301,6 +299,7 @@ function salvarFilial() {		//Função que salva os dados de filial dentro do arr
 
 	$("#modal-Filial").modal("hide");
 	carregarFiliais(); //atualiza a lista
+	carregarEmpresas();
 }
 
 function carregarEmpresas() {		//lista de dados das empresas.
@@ -403,6 +402,8 @@ function addEmpresa() {	//Criação da empresa e recebimento dos dados digitados
 	$("ovTXT_telefone").val(Empresa.Telefone);
 
 	$("#modal-Empresa").modal("show");
+	carregarEmpresas();
+	carregarFiliais();
 }
 
 function addFilial() { 	//Criação da filial e recebimento dos dados digitados.
@@ -423,6 +424,8 @@ function addFilial() { 	//Criação da filial e recebimento dos dados digitados.
 	$("#ovTXT_emailFilial").val(Filial.EmailFilial);
 
 	$("#modal-Filial").modal("show");
+	carregarEmpresas();
+	carregarFiliais();
 }
 
 $(document).ready(function () { //funções que acontecem ao carregar a página.
@@ -438,6 +441,8 @@ $(document).ready(function () { //funções que acontecem ao carregar a página.
 
 	addEventRemover();
 	addEventRemoverFilial();
+	carregarEmpresas();
+	carregarFiliais();
 });
 
 function editar(codigoEmpresa) { 	//Os campos recebem os dados salvos para a edição
@@ -465,6 +470,8 @@ function editar(codigoEmpresa) { 	//Os campos recebem os dados salvos para a edi
 	$("#ovTXT_email").val(Empresa.Email);
 	$("#ovTXT_telefone").val(Empresa.Telefone);
 	$("#modal-Empresa").modal("show");
+	carregarEmpresas();
+	carregarFiliais();
 }
 
 function editarFilial(codigoFilial) { 	//Os campos recebem os dados salvos para a edição
@@ -486,7 +493,8 @@ function editarFilial(codigoFilial) { 	//Os campos recebem os dados salvos para 
 	$("#ovTXT_telefoneFilial").val(Filial.TelefoneFilial);
 	$("#ovTXT_emailFilial").val(Filial.EmailFilial);
 	$("#modal-Filial").modal("show");
-
+	carregarEmpresas();
+	carregarFiliais();
 }
 
 function addEventEditar() {		//ao clickar no botão editar dispara a função de editar.

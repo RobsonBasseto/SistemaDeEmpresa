@@ -17,5 +17,16 @@ namespace SistemaDeEmpresa.Controllers
         {
             return View();
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Index([Bind("idempresa, nomefantasia, datafundacao, razaosocial, grupoempresarial,funcionarios,faturamento,capitalsocial,inscricaoestadual,cnpj,endereco,descricao,email,telefone")]DbEmpresa empresa)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(empresa);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(empresa);
+        } 
     }
 }
