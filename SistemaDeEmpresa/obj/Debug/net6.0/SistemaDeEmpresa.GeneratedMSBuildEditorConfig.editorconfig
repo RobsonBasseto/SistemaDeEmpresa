@@ -8,41 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaDeEmpresa
 build_property.RootNamespace = SistemaDeEmpresa
-build_property.ProjectDir = C:\Users\aluno.AC-CAS\Desktop\Sistema De Empresa\SistemaDeEmpresa\
+build_property.ProjectDir = D:\Users\rrobasseto\Desktop\Sistema De Empresa\SistemaDeEmpresa\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aluno.AC-CAS\Desktop\Sistema De Empresa\SistemaDeEmpresa
+build_property.MSBuildProjectDirectory = D:\Users\rrobasseto\Desktop\Sistema De Empresa\SistemaDeEmpresa
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Empresa/Index.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Empresa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Home/Index.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Empresa/ModalEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxNb2RhbEVtcHJlc2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Empresa/ModalFilial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxNb2RhbEZpbGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Home/Privacy.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Shared/Error.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/_ViewImports.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/_ViewStart.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno.AC-CAS/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Shared/_Layout.cshtml]
+[D:/Users/rrobasseto/Desktop/Sistema De Empresa/SistemaDeEmpresa/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n3axn2gfe5

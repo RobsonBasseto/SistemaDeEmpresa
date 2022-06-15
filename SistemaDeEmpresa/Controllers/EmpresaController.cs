@@ -13,20 +13,19 @@ namespace SistemaDeEmpresa.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View();
+            var listaEmpresas = _context.empresa.ToList();
+            return View(listaEmpresas);
         }
+       
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Index([Bind("idempresa, nomefantasia, datafundacao, razaosocial, grupoempresarial,funcionarios,faturamento,capitalsocial,inscricaoestadual,cnpj,endereco,descricao,email,telefone")]DbEmpresa empresa)
+        public IActionResult Create(DbEmpresa e)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(empresa);
-                return RedirectToAction(nameof(Index));
-            }
-            return View(empresa);
-        } 
+            _context.empresa.Add(e);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+       
     }
 }

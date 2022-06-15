@@ -1,7 +1,12 @@
-﻿namespace SistemaDeEmpresa.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SistemaDeEmpresa.Models
 {
-    public class DbEmpresa
+	[Table("empresa", Schema = "public")]
+	public class DbEmpresa
     {
+		[Key]
 		public int idempresa { get; set; }
 		public string nomefantasia { get; set; }
 		public DateOnly datafundacao { get; set; }
@@ -16,6 +21,6 @@
 		public string descricao { get; set; }
 		public string email { get; set; }
 		public string telefone { get; set; }
-		public DbEmpresa() { }
+	
 	}
 }

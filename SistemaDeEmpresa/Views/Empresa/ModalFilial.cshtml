@@ -1,0 +1,99 @@
+﻿@model DbFilial
+
+<div id="modal-Filial" class="modal" tabindex="-1">
+    <!--Inicio da tela de cadastro de Filial-->
+    <div class="modal-dialog modal-xl" id="modal-conteudoFilial">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Filial</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <div class="row">
+                        <!-- colunas -->
+
+                        <div class="col-md-2">
+                            <label>Código:</label>
+                            <input style="text-align: right" type="text" id="ovTXT_codigoFilial" class="form-control" placeholder="311508" />
+                        </div>
+                        <div class="col-md-2">
+                            <label>Descrição:</label>
+                            <input type="text" id="ovTXT_descricaoFilial" class="form-control" />
+                        </div>
+
+                        <div class="col-md-2">
+                            <label>Sigla:</label>
+                            <input type="text" id="ovTXT_siglaFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-2">
+                            <label>CNPJ:</label>
+                            <input type="text" id="ovTXT_cnpjFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-2">
+                            <label>Inscrição Estadual:</label>
+                            <input type="text" id="ovTXT_incricaoEstadualFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-2">
+                            <br><input type="checkbox" id="ovTXT_ativaFilial" class="form-group" />
+                            <label>Ativa</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <!-- colunas -->
+                        <div class="col-md-5">
+                            <label>Cidade:</label>
+                            <input type="text" id="ovTXT_cidadeFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-2">
+                            <label>CEP:</label>
+                            <input type="text" id="ovTXT_CEPFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-2">
+                            <label>Bairro:</label>
+                            <input type="text" id="ovTXT_bairroFilial" class="form-control" />
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <br><input type="checkbox" id="ovTXT_flagFilial" class="form-group" />
+                            <label>Centro de Distribuição</label>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Endereço:</label>
+                            <input type="text" id="ovTXT_enderecoFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-4">
+                            <label>Telefone:</label>
+                            <input type="text" id="ovTXT_telefoneFilial" class="form-control" />
+                        </div>
+                        <div class="col-md-4">
+                            <label>E-mail:</label>
+                            <input type="text" id="ovTXT_emailFilial" class="form-control" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <!--Botões da tela filial-->
+                <button type="button"
+                        class="btn btn-secondary"
+                        id="ovBTN_EditarFilial"
+                        data-bs-dismiss="modal">
+                    <i class="fa fa-times-circle"></i> Cancelar
+                </button>
+                <button type="button"
+                        id="ovBTN_SalvarFilial"
+                        class="btn btn-primary">
+                    <i class="fa fa-save"></i> Salvar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>		<!--Fim da tela de cadastro de Filial-->

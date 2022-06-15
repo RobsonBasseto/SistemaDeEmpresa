@@ -1,7 +1,11 @@
-﻿namespace SistemaDeEmpresa.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace SistemaDeEmpresa.Models
 {
-    public class DbFilial
+	[Table("filial", Schema = "public")]
+	public class DbFilial
     {
+		[Key]
 		public long idfilial { get; set; }
 		public string descricao { get; set; }
 		public string sigla { get; set; }
@@ -11,6 +15,6 @@
 		public string telefone { get; set; }
 		public string email { get; set; }
 		public int idempresa { get; set; }
-		public DbFilial() { }
+		
 	}
 }
